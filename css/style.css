@@ -1,0 +1,148 @@
+.p-head{
+    width: 100%;
+    position: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 2;
+}
+
+.bg{
+    background-image: url('https://img.freepik.com/free-photo/narrow-muddy-road-dark-forest_181624-9675.jpg?w=1060&t=st=1666521018~exp=1666521618~hmac=35fd00abd6eae39290eb8d9077372813f23faa6c5669bf1e12dca78fcf82c97b');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.blur{
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    width: 100%;
+}
+
+.top-content{
+    color: white;
+    margin: auto;
+    width: 100%;
+    padding: 350px 200px;
+    text-align: center;
+}
+
+.mid-content{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.bottom-content{
+    margin: auto;
+    padding: 20px;
+}
+
+#h1-head{
+    font-size: 60px;
+}
+
+#p1-head{
+    font-size: 20px;
+}
+
+#button1{
+    margin-top: 100px;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 30px;
+    margin: 20px;
+}
+
+.pro-img{
+    width: 100%;
+    max-width: 400px;
+}
+
+.item1{
+    padding: 20px;
+    width: 40%;
+    height: 400px;
+}
+
+.item2{
+    text-align: left;
+    padding: 50px 40px;
+    width: auto;
+    height: 400px;
+}
+
+#hello-text{
+    font-size: 40px;
+}
+
+.main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.grid{
+    margin: 20px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    text-align: left;
+}
+
+.hr-{
+    padding: 0 200px;
+    margin: 20px;
+}
+
+.img-s{
+    width:100%;
+    max-width: 100px;
+    margin: 20px;
+    position: relative;
+    left: 150px;
+}
+
+#sk{
+    margin: 20px;
+    font-weight: bold;
+}
+
+.sk-item{
+    padding: 10px;
+    margin: auto;
+}
+
+.sk-head{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sk-text{
+    text-indent: 2em;
+}
+
+.bottom-grid{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    text-align: left;
+}
+
+.bottom-grid-item1{
+    padding-left: 50px;
+    width: 50%;
+}
+
+.bottom-grid-item2{
+    width: 50%;
+}
